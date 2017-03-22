@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		836C1A941D1FC3380035A396 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836C1A931D1FC3380035A396 /* NoteTableViewCell.swift */; };
+		836C1AA01D2032A70035A396 /* SchulnetzParserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836C1A9F1D2032A70035A396 /* SchulnetzParserError.swift */; };
+		83A610501DF5C16C00D868EA /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A6104F1DF5C16C00D868EA /* libxml2.2.tbd */; };
+		83A610591DF5C22600D868EA /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A610541DF5C22600D868EA /* TFHpple.m */; };
+		83A6105A1DF5C22600D868EA /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A610561DF5C22600D868EA /* TFHppleElement.m */; };
+		83A6105B1DF5C22600D868EA /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A610581DF5C22600D868EA /* XPathQuery.m */; };
+		83F29A471CFB1FBB00DDE29C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F29A461CFB1FBB00DDE29C /* AppDelegate.swift */; };
+		83F29A491CFB1FBB00DDE29C /* NotenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F29A481CFB1FBB00DDE29C /* NotenViewController.swift */; };
+		83F29A4B1CFB1FBB00DDE29C /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F29A4A1CFB1FBB00DDE29C /* ConfigViewController.swift */; };
+		83F29A4E1CFB1FBB00DDE29C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F29A4C1CFB1FBB00DDE29C /* Main.storyboard */; };
+		83F29A501CFB1FBB00DDE29C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F29A4F1CFB1FBB00DDE29C /* Assets.xcassets */; };
+		83F29A531CFB1FBB00DDE29C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F29A511CFB1FBB00DDE29C /* LaunchScreen.storyboard */; };
+		83F29A5C1CFB30AD00DDE29C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F29A5B1CFB30AD00DDE29C /* Note.swift */; };
+		83F29A5E1CFB32A500DDE29C /* SchulnetzParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F29A5D1CFB32A500DDE29C /* SchulnetzParser.swift */; };
+		83F29A741CFB584D00DDE29C /* FakeHtml.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83F29A731CFB584D00DDE29C /* FakeHtml.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		836C1A931D1FC3380035A396 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		836C1A9F1D2032A70035A396 /* SchulnetzParserError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchulnetzParserError.swift; sourceTree = "<group>"; };
+		83A6104F1DF5C16C00D868EA /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		83A610521DF5C22600D868EA /* SchulnetzViewer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SchulnetzViewer-Bridging-Header.h"; sourceTree = "<group>"; };
+		83A610531DF5C22600D868EA /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = hpple/Pod/Classes/TFHpple.h; sourceTree = "<group>"; };
+		83A610541DF5C22600D868EA /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = hpple/Pod/Classes/TFHpple.m; sourceTree = "<group>"; };
+		83A610551DF5C22600D868EA /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = hpple/Pod/Classes/TFHppleElement.h; sourceTree = "<group>"; };
+		83A610561DF5C22600D868EA /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = hpple/Pod/Classes/TFHppleElement.m; sourceTree = "<group>"; };
+		83A610571DF5C22600D868EA /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = hpple/Pod/Classes/XPathQuery.h; sourceTree = "<group>"; };
+		83A610581DF5C22600D868EA /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = hpple/Pod/Classes/XPathQuery.m; sourceTree = "<group>"; };
+		83F29A431CFB1FBB00DDE29C /* SchulnetzViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchulnetzViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F29A461CFB1FBB00DDE29C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83F29A481CFB1FBB00DDE29C /* NotenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotenViewController.swift; sourceTree = "<group>"; };
+		83F29A4A1CFB1FBB00DDE29C /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		83F29A4D1CFB1FBB00DDE29C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83F29A4F1CFB1FBB00DDE29C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83F29A521CFB1FBB00DDE29C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83F29A541CFB1FBB00DDE29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F29A5B1CFB30AD00DDE29C /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		83F29A5D1CFB32A500DDE29C /* SchulnetzParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchulnetzParser.swift; sourceTree = "<group>"; };
+		83F29A731CFB584D00DDE29C /* FakeHtml.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FakeHtml.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83F29A401CFB1FBB00DDE29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A610501DF5C16C00D868EA /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A610511DF5C20A00D868EA /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				83A610531DF5C22600D868EA /* TFHpple.h */,
+				83A610541DF5C22600D868EA /* TFHpple.m */,
+				83A610551DF5C22600D868EA /* TFHppleElement.h */,
+				83A610561DF5C22600D868EA /* TFHppleElement.m */,
+				83A610571DF5C22600D868EA /* XPathQuery.h */,
+				83A610581DF5C22600D868EA /* XPathQuery.m */,
+				83A610521DF5C22600D868EA /* SchulnetzViewer-Bridging-Header.h */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+		83F29A3A1CFB1FBA00DDE29C = {
+			isa = PBXGroup;
+			children = (
+				83A6104F1DF5C16C00D868EA /* libxml2.2.tbd */,
+				83F29A451CFB1FBB00DDE29C /* SchulnetzViewer */,
+				83F29A441CFB1FBB00DDE29C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83F29A441CFB1FBB00DDE29C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F29A431CFB1FBB00DDE29C /* SchulnetzViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F29A451CFB1FBB00DDE29C /* SchulnetzViewer */ = {
+			isa = PBXGroup;
+			children = (
+				83A610511DF5C20A00D868EA /* hpple */,
+				83F29A5A1CFB307C00DDE29C /* SchulnetzParser */,
+				83F29A461CFB1FBB00DDE29C /* AppDelegate.swift */,
+				83F29A481CFB1FBB00DDE29C /* NotenViewController.swift */,
+				83F29A4A1CFB1FBB00DDE29C /* ConfigViewController.swift */,
+				83F29A4C1CFB1FBB00DDE29C /* Main.storyboard */,
+				83F29A4F1CFB1FBB00DDE29C /* Assets.xcassets */,
+				83F29A511CFB1FBB00DDE29C /* LaunchScreen.storyboard */,
+				83F29A541CFB1FBB00DDE29C /* Info.plist */,
+				83F29A731CFB584D00DDE29C /* FakeHtml.txt */,
+				836C1A931D1FC3380035A396 /* NoteTableViewCell.swift */,
+			);
+			path = SchulnetzViewer;
+			sourceTree = "<group>";
+		};
+		83F29A5A1CFB307C00DDE29C /* SchulnetzParser */ = {
+			isa = PBXGroup;
+			children = (
+				83F29A5B1CFB30AD00DDE29C /* Note.swift */,
+				83F29A5D1CFB32A500DDE29C /* SchulnetzParser.swift */,
+				836C1A9F1D2032A70035A396 /* SchulnetzParserError.swift */,
+			);
+			name = SchulnetzParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83F29A421CFB1FBB00DDE29C /* SchulnetzViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F29A571CFB1FBB00DDE29C /* Build configuration list for PBXNativeTarget "SchulnetzViewer" */;
+			buildPhases = (
+				83F29A3F1CFB1FBB00DDE29C /* Sources */,
+				83F29A401CFB1FBB00DDE29C /* Frameworks */,
+				83F29A411CFB1FBB00DDE29C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchulnetzViewer;
+			productName = SchulnetzViewer;
+			productReference = 83F29A431CFB1FBB00DDE29C /* SchulnetzViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F29A3B1CFB1FBB00DDE29C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Lukas Weber";
+				TargetAttributes = {
+					83F29A421CFB1FBB00DDE29C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GS8CYKQXUR;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 83F29A3E1CFB1FBB00DDE29C /* Build configuration list for PBXProject "SchulnetzViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83F29A3A1CFB1FBA00DDE29C;
+			productRefGroup = 83F29A441CFB1FBB00DDE29C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83F29A421CFB1FBB00DDE29C /* SchulnetzViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83F29A411CFB1FBB00DDE29C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F29A741CFB584D00DDE29C /* FakeHtml.txt in Resources */,
+				83F29A531CFB1FBB00DDE29C /* LaunchScreen.storyboard in Resources */,
+				83F29A501CFB1FBB00DDE29C /* Assets.xcassets in Resources */,
+				83F29A4E1CFB1FBB00DDE29C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83F29A3F1CFB1FBB00DDE29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F29A4B1CFB1FBB00DDE29C /* ConfigViewController.swift in Sources */,
+				83F29A471CFB1FBB00DDE29C /* AppDelegate.swift in Sources */,
+				83F29A5E1CFB32A500DDE29C /* SchulnetzParser.swift in Sources */,
+				83A6105B1DF5C22600D868EA /* XPathQuery.m in Sources */,
+				83A6105A1DF5C22600D868EA /* TFHppleElement.m in Sources */,
+				83A610591DF5C22600D868EA /* TFHpple.m in Sources */,
+				836C1AA01D2032A70035A396 /* SchulnetzParserError.swift in Sources */,
+				83F29A491CFB1FBB00DDE29C /* NotenViewController.swift in Sources */,
+				836C1A941D1FC3380035A396 /* NoteTableViewCell.swift in Sources */,
+				83F29A5C1CFB30AD00DDE29C /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83F29A4C1CFB1FBB00DDE29C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F29A4D1CFB1FBB00DDE29C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83F29A511CFB1FBB00DDE29C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F29A521CFB1FBB00DDE29C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83F29A551CFB1FBB00DDE29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: devlukas@hotmail.com (L2JLMD2UW7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: devlukas@hotmail.com (L2JLMD2UW7)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GS8CYKQXUR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = /usr/include/libxml;
+			};
+			name = Debug;
+		};
+		83F29A561CFB1FBB00DDE29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: devlukas@hotmail.com (L2JLMD2UW7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: devlukas@hotmail.com (L2JLMD2UW7)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GS8CYKQXUR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = /usr/include/libxml;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83F29A581CFB1FBB00DDE29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = " $(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = SchulnetzViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRELINK_LIBS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = jkj.SchulnetzViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/libxml2";
+				SWIFT_OBJC_BRIDGING_HEADER = "SchulnetzViewer/SchulnetzViewer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		83F29A591CFB1FBB00DDE29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = " $(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = SchulnetzViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = jkj.SchulnetzViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/libxml2";
+				SWIFT_OBJC_BRIDGING_HEADER = "SchulnetzViewer/SchulnetzViewer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F29A3E1CFB1FBB00DDE29C /* Build configuration list for PBXProject "SchulnetzViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F29A551CFB1FBB00DDE29C /* Debug */,
+				83F29A561CFB1FBB00DDE29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F29A571CFB1FBB00DDE29C /* Build configuration list for PBXNativeTarget "SchulnetzViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F29A581CFB1FBB00DDE29C /* Debug */,
+				83F29A591CFB1FBB00DDE29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F29A3B1CFB1FBB00DDE29C /* Project object */;
+}
